@@ -13,6 +13,7 @@ graph TD
     ROOT["🏢 Skills HQ"]:::root --> DEV["👨‍💻 Developers"]:::dept
     ROOT --> DES["🎨 Designers"]:::dept
     ROOT --> ENG["🐍 Engineering"]:::dept
+    ROOT --> DB["🗄️ Databases"]:::dept
 
     DEV --> SP["⚡ Superpowers"]:::skill
     DEV --> C7["📚 Context7"]:::skill
@@ -33,6 +34,15 @@ graph TD
     ENG --> AC["⭐ Awesome Claude Code"]:::skill
     ENG --> CS["🗂️ Claude Skills 345"]:::skill
 
+    DB --> DD["🗄️ Database Designer"]:::skill
+    DB --> SQ["🔍 SQL Pro"]:::skill
+    DB --> PG["🐘 PostgreSQL Pro"]:::skill
+    DB --> DE["📊 Senior Data Engineer"]:::skill
+    DB --> PSG["⚡ Postgres Skills Generator"]:::skill
+    DB --> PGMCP["🔌 PostgreSQL MCP"]:::skill
+    DB --> SUP["☁️ Supabase MCP"]:::skill
+    DB --> CDT["🛠️ Claude Database Tools"]:::skill
+
     click SP href "https://github.com/obra/superpowers" _blank
     click C7 href "https://github.com/upstash/context7" _blank
     click SC href "https://github.com/anthropics/skills" _blank
@@ -49,6 +59,14 @@ graph TD
     click SB href "https://github.com/disler/agent-sandbox-skill" _blank
     click AC href "https://github.com/hesreallyhim/awesome-claude-code" _blank
     click CS href "https://github.com/alirezarezvani/claude-skills" _blank
+    click DD href "https://github.com/alirezarezvani/claude-skills" _blank
+    click SQ href "https://github.com/VoltAgent/awesome-claude-code-subagents" _blank
+    click PG href "https://github.com/VoltAgent/awesome-claude-code-subagents" _blank
+    click DE href "https://github.com/alirezarezvani/claude-skills" _blank
+    click PSG href "https://github.com/jonfdag-dot/postgres-claude-skills-generator" _blank
+    click PGMCP href "https://github.com/sgaunet/postgresql-mcp" _blank
+    click SUP href "https://supabase.com/docs/guides/ai-tools/mcp" _blank
+    click CDT href "https://github.com/cyronius/claude-database-tools" _blank
 
     classDef root fill:#1a1a2e,stroke:#e94560,color:#fff,font-weight:bold
     classDef dept fill:#16213e,stroke:#0f3460,color:#e94560,font-weight:bold
@@ -91,6 +109,21 @@ graph TD
 | 📦 [**Agent Sandbox**](https://github.com/disler/agent-sandbox-skill) | disler/agent-sandbox-skill |
 | ⭐ [**Awesome Claude Code**](https://github.com/hesreallyhim/awesome-claude-code) | hesreallyhim/awesome-claude-code |
 | 🗂️ [**Claude Skills 345**](https://github.com/alirezarezvani/claude-skills) | alirezarezvani/claude-skills |
+
+---
+
+## 🗄️ Databases
+
+| Skill | Source |
+|-------|--------|
+| 🗄️ [**Database Designer**](https://github.com/alirezarezvani/claude-skills) | alirezarezvani/claude-skills |
+| 🔍 [**SQL Pro**](https://github.com/VoltAgent/awesome-claude-code-subagents) | VoltAgent/awesome-claude-code-subagents |
+| 🐘 [**PostgreSQL Pro**](https://github.com/VoltAgent/awesome-claude-code-subagents) | VoltAgent/awesome-claude-code-subagents |
+| 📊 [**Senior Data Engineer**](https://github.com/alirezarezvani/claude-skills) | alirezarezvani/claude-skills |
+| ⚡ [**Postgres Skills Generator**](https://github.com/jonfdag-dot/postgres-claude-skills-generator) | jonfdag-dot/postgres-claude-skills-generator |
+| 🔌 [**PostgreSQL MCP**](https://github.com/sgaunet/postgresql-mcp) | sgaunet/postgresql-mcp |
+| ☁️ [**Supabase MCP**](https://supabase.com/docs/guides/ai-tools/mcp) | official Supabase |
+| 🛠️ [**Claude Database Tools**](https://github.com/cyronius/claude-database-tools) | cyronius/claude-database-tools |
 
 ---
 
