@@ -12,6 +12,7 @@
 graph TD
     ROOT["🏢 Skills HQ"]:::root --> DEV["👨‍💻 Developers"]:::dept
     ROOT --> DES["🎨 Designers"]:::dept
+    ROOT --> ENG["🐍 Engineering"]:::dept
 
     DEV --> SP["⚡ Superpowers"]:::skill
     DEV --> C7["📚 Context7"]:::skill
@@ -27,6 +28,11 @@ graph TD
     DES --> WA["🌐 Web Artifacts"]:::skill
     DES --> BG["📋 Brand Guidelines"]:::skill
 
+    ENG --> KP["🧠 Karpathy Rules"]:::skill
+    ENG --> SB["📦 Agent Sandbox"]:::skill
+    ENG --> AC["⭐ Awesome Claude Code"]:::skill
+    ENG --> CS["🗂️ Claude Skills 345"]:::skill
+
     click SP href "https://github.com/obra/superpowers" _blank
     click C7 href "https://github.com/upstash/context7" _blank
     click SC href "https://github.com/anthropics/skills" _blank
@@ -39,6 +45,10 @@ graph TD
     click TR href "https://github.com/Jakubantalik/transitions.dev" _blank
     click WA href "https://github.com/anthropics/skills" _blank
     click BG href "https://github.com/anthropics/skills" _blank
+    click KP href "https://github.com/multica-ai/andrej-karpathy-skills" _blank
+    click SB href "https://github.com/disler/agent-sandbox-skill" _blank
+    click AC href "https://github.com/hesreallyhim/awesome-claude-code" _blank
+    click CS href "https://github.com/alirezarezvani/claude-skills" _blank
 
     classDef root fill:#1a1a2e,stroke:#e94560,color:#fff,font-weight:bold
     classDef dept fill:#16213e,stroke:#0f3460,color:#e94560,font-weight:bold
@@ -70,6 +80,17 @@ graph TD
 | 💫 [**Transitions**](https://github.com/Jakubantalik/transitions.dev) | Jakubantalik/transitions.dev |
 | 🌐 [**Web Artifacts**](https://github.com/anthropics/skills) | anthropics/skills |
 | 📋 [**Brand Guidelines**](https://github.com/anthropics/skills) | anthropics/skills |
+
+---
+
+## 🐍 Engineering
+
+| Skill | Source |
+|-------|--------|
+| 🧠 [**Karpathy Rules**](https://github.com/multica-ai/andrej-karpathy-skills) | multica-ai/andrej-karpathy-skills |
+| 📦 [**Agent Sandbox**](https://github.com/disler/agent-sandbox-skill) | disler/agent-sandbox-skill |
+| ⭐ [**Awesome Claude Code**](https://github.com/hesreallyhim/awesome-claude-code) | hesreallyhim/awesome-claude-code |
+| 🗂️ [**Claude Skills 345**](https://github.com/alirezarezvani/claude-skills) | alirezarezvani/claude-skills |
 
 ---
 
